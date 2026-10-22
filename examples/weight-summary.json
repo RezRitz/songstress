@@ -1,0 +1,285 @@
+{
+ "track": "weight-v02",
+ "source": "Weight-Final_11_caf5.wav",
+ "ear_version": "0.2",
+ "duration_s": 154.37,
+ "tempo_bpm_top": 143.6,
+ "tempo_candidates_bpm": [
+  69.8,
+  92.3,
+  136.0,
+  143.6
+ ],
+ "key": "F major",
+ "key_correlation": 0.575,
+ "mean_rms_db": -19.8,
+ "dynamic_range_db": 22.4,
+ "mean_centroid_hz": 3175.0,
+ "sections": [
+  {
+   "start_s": 0,
+   "end_s": 16,
+   "energy_db": -23.3,
+   "dominant_note": "C#",
+   "key": "G# major",
+   "key_correlation": 0.508,
+   "width_db": -7.15,
+   "corr": 0.63
+  },
+  {
+   "start_s": 16,
+   "end_s": 29,
+   "energy_db": -23.1,
+   "dominant_note": "D#",
+   "key": "C# minor",
+   "key_correlation": 0.416,
+   "width_db": -4.06,
+   "corr": 0.4
+  },
+  {
+   "start_s": 29,
+   "end_s": 44,
+   "energy_db": -19.9,
+   "dominant_note": "D",
+   "key": "D minor",
+   "key_correlation": 0.298,
+   "width_db": -4.73,
+   "corr": 0.47
+  },
+  {
+   "start_s": 44,
+   "end_s": 58,
+   "energy_db": -18.7,
+   "dominant_note": "F",
+   "key": "F major",
+   "key_correlation": 0.69,
+   "width_db": -5.64,
+   "corr": 0.56
+  },
+  {
+   "start_s": 58,
+   "end_s": 70,
+   "energy_db": -20.7,
+   "dominant_note": "C",
+   "key": "D minor",
+   "key_correlation": 0.51,
+   "width_db": -9.78,
+   "corr": 0.81
+  },
+  {
+   "start_s": 70,
+   "end_s": 85,
+   "energy_db": -21.1,
+   "dominant_note": "D#",
+   "key": "D minor",
+   "key_correlation": 0.347,
+   "width_db": -10.79,
+   "corr": 0.71
+  },
+  {
+   "start_s": 85,
+   "end_s": 106,
+   "energy_db": -17.8,
+   "dominant_note": "F",
+   "key": "D minor",
+   "key_correlation": 0.506,
+   "width_db": -6.09,
+   "corr": 0.6
+  },
+  {
+   "start_s": 106,
+   "end_s": 122,
+   "energy_db": -20.4,
+   "dominant_note": "F",
+   "key": "A# minor",
+   "key_correlation": 0.587,
+   "width_db": -2.95,
+   "corr": 0.3
+  },
+  {
+   "start_s": 122,
+   "end_s": 140,
+   "energy_db": -15.5,
+   "dominant_note": "F",
+   "key": "F major",
+   "key_correlation": 0.894,
+   "width_db": -10.09,
+   "corr": 0.79
+  },
+  {
+   "start_s": 140,
+   "end_s": 154,
+   "energy_db": -19.0,
+   "dominant_note": "F",
+   "key": "F major",
+   "key_correlation": 0.845,
+   "width_db": -7.38,
+   "corr": 0.65
+  }
+ ],
+ "energy_arc_10s": [
+  {
+   "t": 0,
+   "rms_db": -24.2
+  },
+  {
+   "t": 10,
+   "rms_db": -21.3
+  },
+  {
+   "t": 20,
+   "rms_db": -24.2
+  },
+  {
+   "t": 30,
+   "rms_db": -19.5
+  },
+  {
+   "t": 40,
+   "rms_db": -19.3
+  },
+  {
+   "t": 50,
+   "rms_db": -19.3
+  },
+  {
+   "t": 60,
+   "rms_db": -20.6
+  },
+  {
+   "t": 70,
+   "rms_db": -19.2
+  },
+  {
+   "t": 80,
+   "rms_db": -21.5
+  },
+  {
+   "t": 90,
+   "rms_db": -17.5
+  },
+  {
+   "t": 100,
+   "rms_db": -18.0
+  },
+  {
+   "t": 110,
+   "rms_db": -22.4
+  },
+  {
+   "t": 120,
+   "rms_db": -16.3
+  },
+  {
+   "t": 130,
+   "rms_db": -14.8
+  },
+  {
+   "t": 140,
+   "rms_db": -16.6
+  },
+  {
+   "t": 150,
+   "rms_db": -25.1
+  }
+ ],
+ "stereo": {
+  "is_stereo": true,
+  "mean_width_db": -6.86,
+  "median_width_db": -6.46,
+  "mean_corr": 0.59,
+  "min_corr": -0.44,
+  "band_width_db": {
+   "low": -12.03,
+   "mid": -2.9,
+   "high": -6.06
+  },
+  "width_arc_10s": [
+   {
+    "t": 0,
+    "width_db": -6.92
+   },
+   {
+    "t": 10,
+    "width_db": -6.72
+   },
+   {
+    "t": 20,
+    "width_db": -3.06
+   },
+   {
+    "t": 30,
+    "width_db": -4.05
+   },
+   {
+    "t": 40,
+    "width_db": -6.39
+   },
+   {
+    "t": 50,
+    "width_db": -6.61
+   },
+   {
+    "t": 60,
+    "width_db": -9.7
+   },
+   {
+    "t": 70,
+    "width_db": -7.02
+   },
+   {
+    "t": 80,
+    "width_db": -12.78
+   },
+   {
+    "t": 90,
+    "width_db": -6.03
+   },
+   {
+    "t": 100,
+    "width_db": -5.31
+   },
+   {
+    "t": 110,
+    "width_db": -1.08
+   },
+   {
+    "t": 120,
+    "width_db": -8.85
+   },
+   {
+    "t": 130,
+    "width_db": -10.78
+   },
+   {
+    "t": 140,
+    "width_db": -8.21
+   },
+   {
+    "t": 150,
+    "width_db": -5.31
+   }
+  ],
+  "anomalies": [
+   {
+    "section": 5,
+    "start_s": 70,
+    "end_s": 85,
+    "reasons": [
+     "width -10.79 dB vs track median -6.5 dB"
+    ]
+   }
+  ]
+ },
+ "feature_matrix": {
+  "shape": [
+   154,
+   83
+  ],
+  "dims": "64 log-mel + 12 chroma + centroid + rms + width_db + corr + band widths (low/mid/high), 1 row/sec"
+ },
+ "sizes_bytes": {
+  "wav": 27230360,
+  "embedding_npy": 51256
+ }
+}
