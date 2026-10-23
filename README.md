@@ -42,6 +42,12 @@ python3 listen.py <wav_path> <out_dir> <name>
 
 Outputs `<name>-summary.json` and `<name>-features.npy` in `<out_dir>`.
 
+**Feed it the best file you have.** The ear measures what it's given:
+WAV and FLAC (lossless) produce the clearest results. MP3 is usable,
+but lossy compression shaves the top end and smears stereo detail, so
+brightness and width reads come back discounted — fine for scouting a
+reference, worth upgrading for anything load-bearing.
+
 ## Example
 
 `examples/` contains real output: the summary JSON for two tracks and an
@@ -49,6 +55,27 @@ excerpt of a hand-written listening card built on this data — including the
 stereo analysis that caught what v0.1 missed (a first chorus running wide
 and decorrelated at correlation ~0.5 where the final chorus sits centered
 at 0.79, width concentrated in the vocal band).
+
+## What a run costs (measured)
+
+The ear spends no model tokens — it is numpy/scipy DSP, not an LLM. The
+only "tokens" here are the ones it writes: **one token per second of
+listening**, a single row of the feature matrix (78 numbers in v0.1,
+83 in v0.2), at roughly **313–333 bytes per token**.
+
+Averages across the first 10 runs (6 unique tracks: a 4-song catalog
+plus 2 reference tracks, 154–279 seconds each):
+
+| | |
+|---|---|
+| Tokens per track | ~186 (one per second) |
+| Kept memory per track | ~61 KB (range 48–92 KB) |
+| Source audio per track | ~34 MB (WAV) |
+| Compression | ~550 : 1 |
+
+A ten-song catalog's entire listening memory is ~0.6 MB — smaller than
+one MP3 of one of its songs. That is the point of the format: the
+listening is kept, the audio doesn't have to be.
 
 ## Roadmap
 
